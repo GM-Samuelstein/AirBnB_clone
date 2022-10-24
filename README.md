@@ -3,7 +3,7 @@
 
 -   By Guillaume
 -   Weight: 5
--   Project to be done in teams of 2 people (My team: BÃryl HOUESSOU, Samuel IBITOWA)
+-   Project to be done in teams of 2 people (My team: Beryl HOUESSOU, Samuel IBITOWA)
 
 Concepts
 --------
@@ -742,3 +742,4 @@ Enjoy your first console!
 
 -   GitHub repository: `AirBnB_clone`
 -   File: `console.py, models/engine/file_storage.py, tests/
+
