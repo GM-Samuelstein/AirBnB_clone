@@ -3,7 +3,7 @@
 
 -   By Guillaume
 -   Weight: 5
--   Project to be done in teams of 2 people (My team: Beryl HOUESSOU, Samuel IBITOWA)
+-   Project to be done in teams of 2 people (My team: Béryl HOUESSOU, Samuel IBITOWA)
 
 Concepts
 --------
