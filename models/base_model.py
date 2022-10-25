@@ -16,7 +16,7 @@ class BaseModel:
         Args:
             self (BaseModel): The current instance
             args (list): Not used here
-            kargs (dict): dictionary of key/value pairs attributes
+            kargs (dict): Dictionary of key/value pairs attributes
         """
         if kwargs:
             iso_format = "%Y-%m-%dT%H:%M:%S.%f"
