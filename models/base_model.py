@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+"""Definition of the BaseModel class."""
 import uuid
 from datetime import datetime
 
@@ -10,13 +11,13 @@ class BaseModel:
         save(self)
         to_dict(self)
     """
-    def __init__(self, *args, **kargs):
+    def __init__(self, *args, **kwargs):
         """Initialize the BaseModel class.
 
         Args:
             self (BaseModel): The current instance
             args (list): Not used here
-            kargs (dict): Dictionary of key/value pairs attributes
+            kwargs (dict): Dictionary of key/value pairs attributes
         """
         if kwargs:
             iso_format = "%Y-%m-%dT%H:%M:%S.%f"
@@ -32,7 +33,7 @@ class BaseModel:
 
     def __str__(self):
         """Return the string representation of the instance."""
-        return f"[{self.__class__.__name__}] ({self.id}) {self.__dict__}"
+        return "[{}] ({}) {}".format(self.__class__.__name__, self.id, self.__dict__)
 
     def save(self):
         """Updates the public instance attribute updated_at with the current datetime."""
@@ -43,7 +44,7 @@ class BaseModel:
         dic = self.__dict__.copy()
         dic["created_at"] = self.created_at.isoformat()
         dic["updated_at"] = self.updated_at.isoformat()
-        dic["__class__" = self.__class__.__name__
+        dic["__class__"] = self.__class__.__name__
         return dic
 
         
