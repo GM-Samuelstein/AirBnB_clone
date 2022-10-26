@@ -40,8 +40,8 @@ class FileStorage:
         Args:
             self (FileStorage): The current instance
         """
-        with open(__file_path, "w") as file:
-            json.dump(__objects,file)
+        with open(self.__file_path, "w") as file:
+            json.dump(self.__objects,file,indent=4)
 
     def reload(self):
         """deserializes the JSON file to __objects
@@ -49,6 +49,9 @@ class FileStorage:
         Args:
             self (FileStorage): The current instance
         """
-        with open(__file_path, "r") as file:
-            self.__objects = json.load(file)
+        try:
+            with open(self.__file_path, "r") as file:
+                self.__objects = json.load(file)
+        except FileNotFoundError:
+            return
 
