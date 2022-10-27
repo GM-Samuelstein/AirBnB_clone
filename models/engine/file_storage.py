@@ -40,8 +40,13 @@ class FileStorage:
         Args:
             self (FileStorage): The current instance
         """
-        with open(self.__file_path, "w") as file:
-            json.dump(self.__objects,file,indent=4)
+        objects_copy = self.__objects.copy()
+        objects_dict = {
+            obj: objects_copy[obj].to_dict() for obj in objects_copy.keys()
+        }
+
+        with open(FileStorage.__file_path, "w") as file:
+            json.dump(objects_dict, file)
 
     def reload(self):
         """deserializes the JSON file to __objects
