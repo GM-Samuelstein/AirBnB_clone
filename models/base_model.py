@@ -4,6 +4,7 @@ import uuid
 from datetime import datetime
 import models
 
+
 class BaseModel:
     """Base class for Airbnb clone project
     Methods:
@@ -35,19 +36,21 @@ class BaseModel:
 
     def __str__(self):
         """Return the string representation of the instance."""
-        return "[{}] ({}) {}".format(self.__class__.__name__, self.id, self.__dict__)
+        return f"[{self.__class__.__name__}] ({self.id}) {self.__dict__}"
 
     def save(self):
-        """Updates the public instance attribute updated_at with the current datetime."""
+        """Updates the public instance attribute updated_at with the
+        current datetime.
+        """
         self.updated_at = datetime.today()
         models.storage.save()
 
     def to_dict(self):
-        """Returns a dictionary containing all keys/values of __dict__ of the instance"""
+        """Returns a dictionary containing all keys/values of __dict__
+        of the instance.
+        """
         dic = self.__dict__.copy()
         dic["created_at"] = self.created_at.isoformat()
         dic["updated_at"] = self.updated_at.isoformat()
         dic["__class__"] = self.__class__.__name__
         return dic
-
-        
