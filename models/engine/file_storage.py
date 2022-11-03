@@ -33,7 +33,9 @@ class FileStorage:
             self (FileStorage): The current instance
             obj (any): Any object
         """
-        self.__objects["{obj.__class__.__name__}.{obj.id}"]=obj
+        if obj:
+            key = '{}.{}'.format(obj.__class__.__name__, obj.id)
+            self.__objects[key] = obj
 
     def save(self):
         """serializes __objects to the JSON file
