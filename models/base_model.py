@@ -2,7 +2,8 @@
 """Definition of the BaseModel class."""
 import uuid
 from datetime import datetime
-import models
+#import models
+from models import storage
 
 class BaseModel:
     """Base class for Airbnb clone project
