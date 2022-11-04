@@ -4,7 +4,6 @@ import uuid
 from datetime import datetime
 import models
 
-
 class BaseModel:
     """Base class for Airbnb clone project
     Methods:
@@ -45,6 +44,7 @@ class BaseModel:
         """
         self.updated_at = datetime.today()
         models.storage.save()
+
 
     def to_dict(self):
         """Returns a dictionary containing all keys/values of __dict__
