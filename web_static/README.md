@@ -48,7 +48,8 @@ These are the general requirements for the project.
   </ul>
 
 <h2>More Info</h2>
-![image](https://user-images.githubusercontent.com/104820502/201089079-63e64b74-df93-4115-81bb-bc1848425c13.png)
+![image](https://user-images.githubusercontent.com/104820502/201090280-01d848ee-56b9-4f53-94d4-86f08f9c489a.png)
+
 
 <h1 align="center">TASKS</h1>
 <h2>0. Inline styling</h2>
