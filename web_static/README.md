@@ -48,7 +48,9 @@ These are the general requirements for the project.
   </ul>
 
 <h2>More Info</h2>
-![hbnb_step1](https://user-images.githubusercontent.com/104820502/201092010-e082a265-5dd5-4a5e-9351-6077aaf876b5.png)
+
+![image](https://user-images.githubusercontent.com/104820502/201113999-0debe8b5-e185-4b78-b179-de30f8f69835.png)
+
 
 
 <h1 align="center">TASKS</h1>
