@@ -1,9 +1,9 @@
-<h1 align='center' id="top">AirBnB Clone - Web Static</h1>
+<h1 align='center' id="top"><b>AirBnB Clone - Web Static</b></h1>
 This is the second stage of the AirBnB Clone Project. In the first stage, <a href="https://github.com/beryl452">my partner</a> and I created a command interpreter to manage our AirBnB objects. The second stage of the project is all about making the objects come alive by creating a simple, static HTML page, styled with CSS. This stage does not include JavaScript, and data is not loaded from anything. 
 <br /><br />
 
-<h2>Resources</h2>
-  <h3>Read</h3>
+<h2><b>Resources</b></h2>
+  <h3><b>Read</b></h3>
     <ul>
       <li><a href="https://learn.shayhowe.com/html-css/">Learn to code HTML & CSS.</a></li>
       <li><a href="https://www.codecademy.com/article/html-inline-styles">Inline styles in HTML [Codecademy].</a></li>
@@ -13,7 +13,7 @@ This is the second stage of the AirBnB Clone Project. In the first stage, <a hre
       <li><a href="https://css-tricks.com/centering-css-complete-guide/">Centering in CSS: A Complete Guide.</a></li>
     </ul>
 
-<h2>Learning Objectives</h2>
+<h2><b>Learning Objectives</b></h2>
 At the end of the project, you are expected to be able to explain to anyone, without the help of Google:
   <ul>
     <li>What is HTML.</li>
@@ -31,7 +31,7 @@ At the end of the project, you are expected to be able to explain to anyone, wit
     <li>What are Box properties in CSS.</li>
   </ul>
 
-<h2>Requirements</h2>
+<h2><b>Requirements</b></h2>
 These are the general requirements for the project.
   <ul>
     <li>All files should end with a new line.</li>
@@ -47,13 +47,13 @@ These are the general requirements for the project.
     <li>You have to follow all requirements but some <code>margin</code> / <code>padding</code> are missing - you should try to fit as much as you can to screenshots</li>
   </ul>
 
-<h2>More Info</h2>
+<h2><b>More Info</b></h2>
 
 ![image](https://user-images.githubusercontent.com/104820502/201113999-0debe8b5-e185-4b78-b179-de30f8f69835.png)
 
 
 
-<h1 align="center">TASKS</h1>
+<h1 align="center"><b>TASKS</b></h1>
 <h2>0. Inline styling</h2>
 Snap:
 
