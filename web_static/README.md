@@ -55,10 +55,24 @@ These are the general requirements for the project.
 
 <h1 align="center"><b>TASKS</b></h1>
 <h2>0. Inline styling</h2>
-Snap:
+Write an HTML page that displays a header and a footer as shown in the snapshot below.
 
 ![image](https://user-images.githubusercontent.com/104820502/201149692-30e5c564-246e-4405-ab32-e48d4eddb71c.png)
 
+Layout:
+<ul>
+<li></li>
+<li></li>
+<li></li>
+</ul>
+
+Requirements:
+<ul>
+<li>Use the <code>header</code> and <code>footer</code> tags.</li>
+<li>Don't import any files.</li>
+<li>Don't use the style tag in the head tag</li>
+<li>Use inline styling for all tags.</li>
+</ul>
 <h2>1. Head styling</h2>
 <h2>2. CSS files</h2>
 <h2>3. Zoning done!</h2>
